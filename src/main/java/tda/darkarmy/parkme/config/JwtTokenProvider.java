@@ -61,5 +61,4 @@ public class JwtTokenProvider {
 				.signWith(SignatureAlgorithm.HS512, SECRET_KEY)
 				.compact();
 	}
-
 }
